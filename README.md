@@ -1,16 +1,17 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**ABHI2412-debug/ABHI2412-debug** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# ABHI PANDEY
 
-Here are some ideas to get you started:
+### Software Developer | Mobile & Full-Stack Development
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Building applications with Flutter, MERN, Firebase, and Unreal Engine.
+
+<br/>
+
+<img src="./github-metrics.svg" alt="Abhi's GitHub Metrics" width="100%"/>
+
+<br/>
+
+### BUILD • CREATE • IMPROVE
+
+</div>
