@@ -1,243 +1,124 @@
+<!-- Master Head -->
+<p align="center">
+  <img width="100%" src="./assets/readme/hero.gif" alt="Animated terminal-style header" />
+</p>
+
+<!-- Profile Badges -->
+<div align="center">
+  <a href="https://github.com/ABHI2412-debug">
+    <img src="https://komarev.com/ghpvc/?username=ABHI2412-debug&label=Profile%20views&color=5e81ac&style=for-the-badge&logo=github&logoColor=white" alt="Profile views" />
+  </a>
+  <a href="https://github.com/ABHI2412-debug?tab=followers">
+    <img src="https://img.shields.io/github/followers/ABHI2412-debug?style=for-the-badge&label=Followers&color=5e81ac&logo=github" alt="GitHub followers" />
+  </a>
+  <a href="https://github.com/ABHI2412-debug?tab=repositories&sort=stargazers">
+    <img src="https://img.shields.io/github/stars/ABHI2412-debug?style=for-the-badge&label=Stars&color=bf616a&logo=github" alt="GitHub stars" />
+  </a>
+</div>
+
+<br>
+
+<img align="left" alt="Coding animation" width="390" src="./assets/readme/coding.gif" />
+
+### About Me
+
+I am **Abhi Pandey**, a software developer focused on mobile apps, full-stack engineering, real-time systems, and interactive game experiences.
+
+- Building cross-platform applications with **Flutter**, **Dart**, and **Firebase**
+- Developing full-stack platforms with **React**, **Node.js**, **Express**, and databases
+- Exploring real-time systems using **WebSockets**, **Redis**, and **PostgreSQL**
+- Creating interactive gameplay systems with **Unreal Engine 5** and **Flame**
+- Experienced in data preprocessing, validation, cleaning, and workflow management
+
+### Drop Me A Line
+
+<div align="left">
+  <a href="mailto:abhisunilpandey24@gmail.com">
+    <img width="35" src="./assets/readme/gmail.png" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/abhi-pandey-5a0a182b8/" target="_blank">
+    <img width="35" src="./assets/readme/linkedin.png" alt="LinkedIn" />
+  </a>
+  <a href="https://abhipandey.vercel.app/" target="_blank">
+    <img width="35" src="./assets/readme/portfolio.png" alt="Portfolio" />
+  </a>
+</div>
+
+<br clear="left">
+
+---
+
+### Languages & Tools I Have Placed My Hands On
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,python,java,dart,react,nodejs,express,flutter,tailwind" alt="Languages and frontend tools" /><br>
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,firebase,docker,git,github,vscode,androidstudio" alt="Databases and development tools" /><br>
+  <img src="https://skillicons.dev/icons?i=unreal,blender,figma,postman,linux,bash" alt="Game, design, and platform tools" />
+</div>
+
+---
+
+### Featured Projects
+
 <div align="center">
 
-# Abhi Pandey
-
-**Software Developer | Mobile Applications | Full-Stack Engineering | Real-Time Systems**
-
-I build practical web, mobile, and game experiences with a focus on clean product flow, reliable backend integration, and real-time interaction.
-
-<a href="https://abhipandey.vercel.app/">Portfolio</a> ·
-<a href="https://www.linkedin.com/in/abhi-pandey-5a0a182b8/">LinkedIn</a> ·
-<a href="https://github.com/ABHI2412-debug">GitHub</a>
+| Project | What It Does | Stack |
+| --- | --- | --- |
+| **ZenTrade** | Binance-inspired trading platform with real-time market data, candlestick charts, order workflows, and service-oriented backend design. | `React` `Node.js` `PostgreSQL` `Redis` `WebSockets` `Docker` |
+| **Location-Based Meta Game** | Mobile game experience built around real-time maps, location-aware mechanics, authentication, and live data updates. | `Flutter` `Dart` `Flame` `Firebase` |
+| **MERN Job Portal** | Recruitment platform for job discovery, hiring workflows, REST APIs, and database-backed application features. | `MongoDB` `Express.js` `React` `Node.js` |
+| **Certificate Verification System** | Web app for certificate creation, management, and verification with structured backend workflows. | `MongoDB` `Express.js` `React` `Node.js` |
+| **FPS Bodycam Game** | First-person bodycam-style game with movement, camera behavior, interaction systems, and team-led implementation. | `Unreal Engine 5` `Blueprints` |
 
 </div>
 
 ---
 
-<table>
-<tr>
-<td width="58%" valign="top">
-
-## Developer Overview
-
-```text
-Role        Full-stack and mobile developer
-Focus       Flutter, React, Node.js, real-time systems, Firebase
-Building    Trading workflows, map-based games, data-backed web apps
-Learning    Scalable backend design, cloud deployment, Unreal Engine systems
-Location    India
-```
-
-I enjoy turning ideas into usable systems: fast interfaces, dependable APIs, mobile flows, data pipelines, and interactive gameplay. My current work combines application development with real-time communication, database design, and cloud-backed product features.
-
-</td>
-<td width="42%" valign="top">
-
-## Current Focus
-
-- Cross-platform apps with Flutter and Dart
-- Full-stack platforms with React, Node.js, Express, and databases
-- Real-time updates with WebSockets, Redis, PostgreSQL, and Firebase
-- Interactive games with Unreal Engine 5 and Flame
-- Data cleaning, validation, and workflow automation
-
-</td>
-</tr>
-</table>
-
----
-
-## Technology Stack
-
-<table>
-<tr>
-<td width="25%" valign="top">
-
-**Languages**
-
-`JavaScript` `TypeScript` `Python` `Java` `Dart`
-
-</td>
-<td width="25%" valign="top">
-
-**Frontend & Mobile**
-
-`React` `Flutter` `Tailwind CSS` `Flame`
-
-</td>
-<td width="25%" valign="top">
-
-**Backend & Data**
-
-`Node.js` `Express` `MongoDB` `PostgreSQL` `Redis` `Firebase`
-
-</td>
-<td width="25%" valign="top">
-
-**Tools & Platforms**
-
-`Git` `GitHub` `Docker` `VS Code` `Android Studio` `Unreal Engine 5`
-
-</td>
-</tr>
-</table>
+### Professional Experience
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,java,dart,react,nodejs,express,flutter,tailwind,mongodb,postgres,redis,firebase,docker,git,github,vscode,androidstudio,unreal,blender" alt="Technology stack icons" />
+
+| Role | Organization | Highlights |
+| --- | --- | --- |
+| **Data Analyst Intern** | Igenie Labs | Cleaned, deduplicated, standardized, and validated large bibliographic datasets. |
+| **Management & Flutter/Flame Developer Intern** | The Good Game Theory | Built Android apps and 2D game systems, integrated Firebase, coordinated partnerships, and hosted Drone Decoder Lab with Vedic. |
+| **MERN Stack Developer Intern & Team Lead** | Amdox Technology | Built full-stack applications, integrated APIs, and coordinated a five-member development team. |
+| **Game Development Intern & Lead Developer** | Godeaon Studios | Developed FPS bodycam gameplay systems in Unreal Engine 5 and mentored eight junior interns. |
+
 </div>
 
 ---
 
-## Featured Projects
+### Tech Stack
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ZenTrade
-
-Digital trading platform inspired by modern exchange products.
-
-- Real-time market updates through WebSockets
-- High-frequency candlestick charts with 2-second intervals
-- Trading workflows, order execution, and backend services
-- Microservices-oriented architecture using PostgreSQL, Redis, and Docker
-
-`React` `Node.js` `PostgreSQL` `Redis` `WebSockets` `Docker`
-
-</td>
-<td width="50%" valign="top">
-
-### Location-Based Meta Game
-
-Mobile game experience built around live maps and location-aware mechanics.
-
-- Interactive real-world movement and gameplay systems
-- Firebase authentication, data storage, and real-time updates
-- Flutter and Flame gameplay logic with performance-conscious mobile UI
-
-`Flutter` `Dart` `Flame` `Firebase`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### MERN Job Portal
-
-Recruitment platform for job discovery and hiring workflows.
-
-- Full-stack architecture with database-backed application features
-- REST API integration between frontend and backend modules
-- Recruiter and candidate workflow foundations
-
-`MongoDB` `Express.js` `React` `Node.js`
-
-</td>
-<td width="50%" valign="top">
-
-### Certificate Verification System
-
-Web application for certificate creation, management, and verification.
-
-- Structured certificate workflows
-- Backend integration and database management
-- Verification-focused user flow for reliable record lookup
-
-`MongoDB` `Express.js` `React` `Node.js`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Flutter Application Development
-
-Practical mobile app development with reliable cloud integration.
-
-- Authentication and cloud database features
-- Real-time data handling and application logic
-- Mobile performance and user flow optimization
-
-`Flutter` `Dart` `Firebase`
-
-</td>
-<td width="50%" valign="top">
-
-### FPS Bodycam Game
-
-First-person bodycam-style game developed in Unreal Engine 5.
-
-- Gameplay mechanics, movement, camera behavior, and interaction systems
-- Team coordination and implementation planning
-- Led and mentored eight junior interns during development
-
-`Unreal Engine 5` `Blueprints`
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a>
+  <a href="https://react.dev/" target="_blank"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /></a>
+  <a href="https://nodejs.org/" target="_blank"><img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" /></a>
+  <a href="https://expressjs.com/" target="_blank"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" /></a>
+  <a href="https://flutter.dev/" target="_blank"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" /></a>
+  <a href="https://dart.dev/" target="_blank"><img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" /></a>
+  <a href="https://firebase.google.com/" target="_blank"><img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=000000" alt="Firebase" /></a>
+  <a href="https://www.mongodb.com/" target="_blank"><img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" /></a>
+  <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
+  <a href="https://redis.io/" target="_blank"><img src="https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" /></a>
+  <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /></a>
+  <a href="https://www.unrealengine.com/" target="_blank"><img src="https://img.shields.io/badge/Unreal%20Engine-313131?style=for-the-badge&logo=unrealengine&logoColor=white" alt="Unreal Engine" /></a>
+</div>
 
 ---
 
-## Professional Experience
+### GitHub Status
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Data Analyst Intern**<br>
-Igenie Labs · 3 months
-
-- Cleaned, deduplicated, and validated bibliographic datasets
-- Standardized records and improved consistency across data workflows
-
-</td>
-<td width="50%" valign="top">
-
-**Management & Flutter/Flame Developer Intern**<br>
-The Good Game Theory · 6 months · Hybrid
-
-- Built Android apps and 2D game systems with map-based interactions
-- Integrated Firebase authentication, storage, and real-time updates
-- Coordinated partnerships and hosted Drone Decoder Lab with Vedic
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**MERN Stack Developer Intern & Team Lead**<br>
-Amdox Technology · 3 months · Remote
-
-- Built full-stack applications across two projects
-- Coordinated a five-member team and handled frontend-backend integration
-
-</td>
-<td width="50%" valign="top">
-
-**Game Development Intern & Lead Developer**<br>
-Godeaon Studios · 4 months · In-office
-
-- Developed FPS bodycam gameplay systems in Unreal Engine 5
-- Mentored eight junior interns and guided implementation tasks
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ABHI2412-debug&show_icons=true&theme=nord&hide_border=false&rank_icon=github" alt="Abhi Pandey GitHub stats" />
+  <img height="170" src="https://nirzak-streak-stats.vercel.app/?user=ABHI2412-debug&theme=nord&hide_border=false" alt="Abhi Pandey GitHub streak" />
+</div>
 
 ---
 
-## Education
-
-**Bachelor of Engineering**<br>
-Ramdeobaba University (RBU) · 2023-2027
-
----
-
-## GitHub Metrics Dashboard
-
-The profile dashboard below is generated by `lowlighter/metrics` and refreshed through GitHub Actions. It includes the profile header, isometric contribution calendar, coding habits, language activity, topic icons, and PageSpeed Insights for the portfolio site.
+### GitHub Metrics Dashboard
 
 <div align="center">
   <img src="./github-metrics.svg" alt="Abhi Pandey GitHub Metrics dashboard" width="100%" />
@@ -245,8 +126,19 @@ The profile dashboard below is generated by `lowlighter/metrics` and refreshed t
 
 ---
 
-<div align="center">
+### Education
 
-**Build useful systems. Learn in public. Improve with every version.**
+**Bachelor of Engineering**<br>
+Ramdeobaba University (RBU) · 2023-2027
 
-</div>
+---
+
+<p align="center">
+  <img src="./assets/readme/footer.gif" alt="Animated footer" width="100%" />
+</p>
+
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%" height="1" alt="" />
+
+<p align="center">
+  Built with the animated profile style you liked, customized for <strong>Abhi Pandey</strong>.
+</p>
