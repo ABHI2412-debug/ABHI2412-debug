@@ -1,67 +1,35 @@
-name: GitHub Metrics
+name: Generate Profile Dashboard
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      - 'README.md'
+      - '.github/scripts/generate-profile.js'
+      - '.github/workflows/metrics.yml'
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  github-metrics:
+  generate-profile:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
     steps:
-      - name: Generate GitHub Metrics
-        uses: lowlighter/metrics@latest
-        with:
-          filename: github-metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: ABHI2412-debug
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-          # Dashboard appearance
-          template: classic
-          config_timezone: Asia/Kolkata
-          config_display: large
-          config_animations: yes
+      - name: Generate animated dashboard SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_USER: ABHI2412-debug
+        run: node .github/scripts/generate-profile.js
 
-          # Detailed profile header
-          base: header
-          base_indepth: yes
-
-          # Dashboard section order
-          config_order: base.header, isocalendar, habits, languages, topics, pagespeed
-
-          # Contribution calendar
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          # Coding activity
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: graph
-
-          # Programming languages
-          plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_limit: 8
-          plugin_languages_details: percentage
-          plugin_languages_colors: github
-
-          # Technology and repository topics
-          plugin_topics: yes
-          plugin_topics_mode: icons
-          plugin_topics_limit: 0
-
-          # PageSpeed Insights
-          plugin_pagespeed: yes
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://abhipandey.vercel.app/
-          plugin_pagespeed_detailed: yes
+      - name: Commit updated dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/assets/profile.svg
+          git diff --cached --quiet || (git commit -m "chore: refresh profile dashboard" && git push)

@@ -1,0 +1,68 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Abhi Pandey GitHub Profile Dashboard</title>
+  <desc id="desc">Starter animated profile dashboard for the package test branch.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080812"/>
+      <stop offset=".55" stop-color="#0a0a16"/>
+      <stop offset="1" stop-color="#090714"/>
+    </linearGradient>
+    <radialGradient id="glowA">
+      <stop offset="0" stop-color="#713cff" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#713cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB">
+      <stop offset="0" stop-color="#00c8dd" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#00c8dd" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9c83ff" stroke-opacity=".045" stroke-width=".8"/>
+    </pattern>
+    <style>
+      text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}
+      .muted{font-size:14px;fill:#a5a3bd}
+      .section{font-size:11px;fill:#9b8be6;letter-spacing:3px;font-weight:800}
+      .chip{font-size:12px;fill:#e7e2ff;font-weight:700}
+      .title{fill:#fff;font-size:46px;font-weight:850;letter-spacing:-1.5px}
+      .cardTitle{font-size:16px;font-weight:800;fill:#f8f7ff}
+      @keyframes floatA{0%,100%{transform:translate(0,0);opacity:.55}50%{transform:translate(26px,-16px);opacity:.9}}
+      @keyframes floatB{0%,100%{transform:translate(0,0);opacity:.45}50%{transform:translate(-22px,18px);opacity:.8}}
+      .orbA{animation:floatA 9s ease-in-out infinite}
+      .orbB{animation:floatB 11s ease-in-out infinite}
+    </style>
+  </defs>
+  <rect width="900" height="520" rx="22" fill="url(#bg)" stroke="#9180d9" stroke-opacity=".25"/>
+  <rect width="900" height="520" rx="22" fill="url(#grid)"/>
+  <ellipse class="orbA" cx="145" cy="105" rx="245" ry="160" fill="url(#glowA)"/>
+  <ellipse class="orbB" cx="765" cy="82" rx="210" ry="145" fill="url(#glowB)"/>
+  <text x="42" y="58" fill="#7ee7ff" font-size="10" letter-spacing="4" font-weight="800">DEVELOPER PROFILE / TEST BRANCH</text>
+  <text x="42" y="118" class="title">ABHI PANDEY</text>
+  <text x="44" y="154" fill="#d5adff" font-size="14" letter-spacing="2.1" font-weight="750">SOFTWARE DEVELOPER · MOBILE · FULL STACK</text>
+  <text x="44" y="186" class="muted">Building mobile apps, full-stack products, and interactive digital experiences.</text>
+  <text x="44" y="236" class="section">TECHNOLOGY STACK</text>
+  <g>
+    <rect x="44" y="260" width="92" height="30" rx="15" fill="#fff" fill-opacity=".035" stroke="#b6a0ff" stroke-opacity=".28"/>
+    <text x="90" y="280" text-anchor="middle" class="chip">Flutter</text>
+    <rect x="148" y="260" width="78" height="30" rx="15" fill="#fff" fill-opacity=".035" stroke="#b6a0ff" stroke-opacity=".28"/>
+    <text x="187" y="280" text-anchor="middle" class="chip">React</text>
+    <rect x="238" y="260" width="90" height="30" rx="15" fill="#fff" fill-opacity=".035" stroke="#b6a0ff" stroke-opacity=".28"/>
+    <text x="283" y="280" text-anchor="middle" class="chip">Node.js</text>
+    <rect x="340" y="260" width="106" height="30" rx="15" fill="#fff" fill-opacity=".035" stroke="#b6a0ff" stroke-opacity=".28"/>
+    <text x="393" y="280" text-anchor="middle" class="chip">Firebase</text>
+    <rect x="458" y="260" width="112" height="30" rx="15" fill="#fff" fill-opacity=".035" stroke="#b6a0ff" stroke-opacity=".28"/>
+    <text x="514" y="280" text-anchor="middle" class="chip">PostgreSQL</text>
+  </g>
+  <text x="44" y="342" class="section">FEATURED PROJECTS</text>
+  <g>
+    <rect x="44" y="366" width="252" height="94" rx="14" fill="#0b0b19" stroke="#7ee7ff" stroke-opacity=".34"/>
+    <text x="62" y="398" class="cardTitle">ZenTrade</text>
+    <text x="62" y="426" class="muted">Real-time trading platform.</text>
+    <rect x="324" y="366" width="252" height="94" rx="14" fill="#0b0b19" stroke="#d5adff" stroke-opacity=".34"/>
+    <text x="342" y="398" class="cardTitle">Location Meta Game</text>
+    <text x="342" y="426" class="muted">Flutter, Flame, Firebase.</text>
+    <rect x="604" y="366" width="252" height="94" rx="14" fill="#0b0b19" stroke="#ff8bc8" stroke-opacity=".34"/>
+    <text x="622" y="398" class="cardTitle">FPS Bodycam Game</text>
+    <text x="622" y="426" class="muted">Unreal Engine systems.</text>
+  </g>
+  <text x="450" y="495" text-anchor="middle" fill="#62617b" font-size="10" letter-spacing="2">WORKFLOW WILL REFRESH THIS DASHBOARD WITH LIVE GITHUB DATA</text>
+</svg>
