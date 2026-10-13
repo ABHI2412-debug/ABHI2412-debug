@@ -1,174 +1,176 @@
 <div align="center">
 
-# ABHI PANDEY
+# Abhi Pandey
 
-### Software Developer | Mobile Applications | Full-Stack Engineering
+**Software Developer | Mobile Applications | Full-Stack Engineering | Real-Time Systems**
 
-Building applications, real-time systems, and interactive digital experiences.
+I build practical web, mobile, and game experiences with a focus on clean product flow, reliable backend integration, and real-time interaction.
 
-<br/>
-
-<a href="https://abhipandey.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-00C853?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-<a href="https://www.linkedin.com/in/abhi-pandey-5a0a182b8/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://github.com/ABHI2412-debug">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+<a href="https://abhipandey.vercel.app/">Portfolio</a> ·
+<a href="https://www.linkedin.com/in/abhi-pandey-5a0a182b8/">LinkedIn</a> ·
+<a href="https://github.com/ABHI2412-debug">GitHub</a>
 
 </div>
 
 ---
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+## Developer Overview
+
+```text
+Role        Full-stack and mobile developer
+Focus       Flutter, React, Node.js, real-time systems, Firebase
+Building    Trading workflows, map-based games, data-backed web apps
+Learning    Scalable backend design, cloud deployment, Unreal Engine systems
+Location    India
+```
+
+I enjoy turning ideas into usable systems: fast interfaces, dependable APIs, mobile flows, data pipelines, and interactive gameplay. My current work combines application development with real-time communication, database design, and cloud-backed product features.
+
+</td>
+<td width="42%" valign="top">
+
+## Current Focus
+
+- Cross-platform apps with Flutter and Dart
+- Full-stack platforms with React, Node.js, Express, and databases
+- Real-time updates with WebSockets, Redis, PostgreSQL, and Firebase
+- Interactive games with Unreal Engine 5 and Flame
+- Data cleaning, validation, and workflow automation
+
+</td>
+</tr>
+</table>
+
+---
+
+## Technology Stack
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+**Languages**
+
+`JavaScript` `TypeScript` `Python` `Java` `Dart`
+
+</td>
+<td width="25%" valign="top">
+
+**Frontend & Mobile**
+
+`React` `Flutter` `Tailwind CSS` `Flame`
+
+</td>
+<td width="25%" valign="top">
+
+**Backend & Data**
+
+`Node.js` `Express` `MongoDB` `PostgreSQL` `Redis` `Firebase`
+
+</td>
+<td width="25%" valign="top">
+
+**Tools & Platforms**
+
+`Git` `GitHub` `Docker` `VS Code` `Android Studio` `Unreal Engine 5`
+
+</td>
+</tr>
+</table>
 
 <div align="center">
-
-## CURRENT FOCUS
-
-<img src="https://img.shields.io/badge/MOBILE%20DEVELOPMENT-00C853?style=flat-square" />
-<img src="https://img.shields.io/badge/FULL--STACK-00C853?style=flat-square" />
-<img src="https://img.shields.io/badge/GAME%20DEVELOPMENT-00C853?style=flat-square" />
-
-</div>
-
-- Developing cross-platform applications using Flutter and Dart.
-- Building full-stack applications with React, Node.js, Express, and databases.
-- Exploring real-time systems using WebSockets, Redis, and PostgreSQL.
-- Working with Firebase authentication, cloud data, and real-time updates.
-- Developing interactive games using Unreal Engine 5 and Flame.
-- Working with data preprocessing, cleaning, validation, and dataset management.
-
----
-
-## TECHNICAL STACK
-
-<div align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=js,ts,python,java,dart" />
-
-### Web & Mobile Development
-
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,flutter,tailwind" />
-
-### Databases & Infrastructure
-
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,firebase,docker" />
-
-### Development Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,androidstudio" />
-
-### Game Development
-
-<img src="https://skillicons.dev/icons?i=unreal,blender" />
-
+  <img src="https://skillicons.dev/icons?i=js,ts,python,java,dart,react,nodejs,express,flutter,tailwind,mongodb,postgres,redis,firebase,docker,git,github,vscode,androidstudio,unreal,blender" alt="Technology stack icons" />
 </div>
 
 ---
 
-## FEATURED PROJECTS
+## Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 01. ZenTrade
-**Digital Trading Platform**
+### ZenTrade
 
-A Binance-inspired trading platform focused on real-time market data and responsive trading experiences.
+Digital trading platform inspired by modern exchange products.
 
-- Live updates using WebSockets.
-- High-frequency charts with 2-second candlestick intervals.
-- Trading workflows and order execution.
-- Microservices-oriented backend architecture.
-
-**Stack**
+- Real-time market updates through WebSockets
+- High-frequency candlestick charts with 2-second intervals
+- Trading workflows, order execution, and backend services
+- Microservices-oriented architecture using PostgreSQL, Redis, and Docker
 
 `React` `Node.js` `PostgreSQL` `Redis` `WebSockets` `Docker`
 
 </td>
 <td width="50%" valign="top">
 
-### 02. Location-Based Meta Game
+### Location-Based Meta Game
 
-A mobile gaming experience built around real-time maps and location-aware gameplay.
+Mobile game experience built around live maps and location-aware mechanics.
 
-- Interactive location-based mechanics.
-- Gameplay logic and performance optimization.
-- Firebase authentication and data integration.
-- Real-time application updates.
-
-**Stack**
+- Interactive real-world movement and gameplay systems
+- Firebase authentication, data storage, and real-time updates
+- Flutter and Flame gameplay logic with performance-conscious mobile UI
 
 `Flutter` `Dart` `Flame` `Firebase`
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
 
-### 03. MERN Job Portal
+### MERN Job Portal
 
-A full-stack recruitment application developed to support job discovery and recruitment workflows.
+Recruitment platform for job discovery and hiring workflows.
 
-- Frontend and backend development.
-- API integration and database-backed features.
-- Full-stack application architecture.
-
-**Stack**
+- Full-stack architecture with database-backed application features
+- REST API integration between frontend and backend modules
+- Recruiter and candidate workflow foundations
 
 `MongoDB` `Express.js` `React` `Node.js`
 
 </td>
 <td width="50%" valign="top">
 
-### 04. Certificate Verification System
+### Certificate Verification System
 
-A web application project focused on certificate creation and verification.
+Web application for certificate creation, management, and verification.
 
-- Full-stack application development.
-- Backend integration and database management.
-- Structured certificate workflows.
-
-**Stack**
+- Structured certificate workflows
+- Backend integration and database management
+- Verification-focused user flow for reliable record lookup
 
 `MongoDB` `Express.js` `React` `Node.js`
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
 
-### 05. Flutter Application Development
+### Flutter Application Development
 
-Mobile application development focused on practical features and reliable backend integration.
+Practical mobile app development with reliable cloud integration.
 
-- Authentication and cloud database integration.
-- Real-time data handling.
-- Application logic and performance optimization.
-
-**Stack**
+- Authentication and cloud database features
+- Real-time data handling and application logic
+- Mobile performance and user flow optimization
 
 `Flutter` `Dart` `Firebase`
 
 </td>
 <td width="50%" valign="top">
 
-### 06. FPS Bodycam Game
+### FPS Bodycam Game
 
-A first-person bodycam-style game developed using Unreal Engine 5.
+First-person bodycam-style game developed in Unreal Engine 5.
 
-- Gameplay and interaction systems.
-- Camera behavior and movement mechanics.
-- Team coordination and implementation.
-- Led and mentored eight junior interns.
-
-**Stack**
+- Gameplay mechanics, movement, camera behavior, and interaction systems
+- Team coordination and implementation planning
+- Led and mentored eight junior interns during development
 
 `Unreal Engine 5` `Blueprints`
 
@@ -178,63 +180,73 @@ A first-person bodycam-style game developed using Unreal Engine 5.
 
 ---
 
-## PROFESSIONAL EXPERIENCE
+## Professional Experience
 
-### Data Analyst Intern — Igenie Labs
-*3 months*
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- Preprocessed and cleaned large bibliographic datasets.
-- Removed duplicate, outdated, and irrelevant records.
-- Standardized and validated data to improve consistency.
-- Maintained structured datasets and optimized data workflows.
+**Data Analyst Intern**<br>
+Igenie Labs · 3 months
 
-### Management & Flutter/Flame Developer Intern — The Good Game Theory
-*6 months · Hybrid*
+- Cleaned, deduplicated, and validated bibliographic datasets
+- Standardized records and improved consistency across data workflows
 
-- Developed Android applications and 2D games.
-- Built meta-game systems using real-time maps and location data.
-- Integrated Firebase authentication, storage, and real-time updates.
-- Coordinated partnerships and operational communications.
-- Hosted the Drone Decoder Lab webinar in collaboration with Vedic.
+</td>
+<td width="50%" valign="top">
 
-### MERN Stack Developer Intern & Team Lead — Amdox Technology
-*3 months · Remote*
+**Management & Flutter/Flame Developer Intern**<br>
+The Good Game Theory · 6 months · Hybrid
 
-- Built full-stack applications across two projects.
-- Worked on backend APIs and frontend-backend integration.
-- Led a team of five developers and coordinated project tasks.
+- Built Android apps and 2D game systems with map-based interactions
+- Integrated Firebase authentication, storage, and real-time updates
+- Coordinated partnerships and hosted Drone Decoder Lab with Vedic
 
-### Game Development Intern & Lead Developer — Godeaon Studios
-*4 months · In-office*
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-- Developed an FPS bodycam-style game using Unreal Engine 5.
-- Led and mentored eight junior interns.
-- Implemented gameplay mechanics, camera behavior, movement, and interactions.
+**MERN Stack Developer Intern & Team Lead**<br>
+Amdox Technology · 3 months · Remote
+
+- Built full-stack applications across two projects
+- Coordinated a five-member team and handled frontend-backend integration
+
+</td>
+<td width="50%" valign="top">
+
+**Game Development Intern & Lead Developer**<br>
+Godeaon Studios · 4 months · In-office
+
+- Developed FPS bodycam gameplay systems in Unreal Engine 5
+- Mentored eight junior interns and guided implementation tasks
+
+</td>
+</tr>
+</table>
 
 ---
 
-## EDUCATION
+## Education
 
-**Bachelor of Engineering**  
-Ramdeobaba University (RBU)  
-2023–2027
+**Bachelor of Engineering**<br>
+Ramdeobaba University (RBU) · 2023-2027
 
 ---
 
-## GITHUB METRICS
+## GitHub Metrics Dashboard
+
+The profile dashboard below is generated by `lowlighter/metrics` and refreshed through GitHub Actions. It includes the profile header, isometric contribution calendar, coding habits, language activity, topic icons, and PageSpeed Insights for the portfolio site.
 
 <div align="center">
-
-<img src="./github-metrics.svg" alt="Abhi's GitHub Metrics Dashboard" width="100%"/>
-
+  <img src="./github-metrics.svg" alt="Abhi Pandey GitHub Metrics dashboard" width="100%" />
 </div>
 
 ---
 
 <div align="center">
 
-### BUILD. EXPERIMENT. IMPROVE.
-
-*Learning new technologies. Building practical solutions.*
+**Build useful systems. Learn in public. Improve with every version.**
 
 </div>
