@@ -1,0 +1,166 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Abhi Pandey glass profile dashboard</title>
+  <desc id="desc">A frosted glass profile layout for Abhi Pandey with social links, projects, skills, experience, and education.</desc>
+  <defs>
+    <radialGradient id="fog1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 120) rotate(48) scale(650 420)">
+      <stop stop-color="#2DD4BF" stop-opacity="0.36"/>
+      <stop offset="0.42" stop-color="#1E3A8A" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fog2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 640) rotate(-135) scale(620 400)">
+      <stop stop-color="#FB7185" stop-opacity="0.28"/>
+      <stop offset="0.48" stop-color="#7C3AED" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="0.38" stop-color="#CBD5E1" stop-opacity="0.12"/>
+      <stop offset="0.7" stop-color="#0F172A" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0.34"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.36"/>
+      <stop offset="0.28" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.82"/>
+      <stop offset="0.42" stop-color="#67E8F9" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0.42"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <filter id="frost" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018 0.035" numOctaves="3" seed="8" result="noise"/>
+      <feGaussianBlur in="noise" stdDeviation="1.6" result="blurredNoise"/>
+      <feColorMatrix in="blurredNoise" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .12 0" result="mist"/>
+      <feBlend in="SourceGraphic" in2="mist" mode="screen"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <style>
+      .mono { font: 600 15px 'Cascadia Mono', 'SFMono-Regular', Consolas, monospace; fill: #B8C7DC; }
+      .tiny { font: 600 14px 'Segoe UI', Arial, sans-serif; fill: #8EA0B8; }
+      .eyebrow { font: 800 13px 'Segoe UI', Arial, sans-serif; letter-spacing: 2.6px; fill: #67E8F9; }
+      .title { font: 900 46px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
+      .subtitle { font: 700 21px 'Segoe UI', Arial, sans-serif; fill: #C7D2FE; }
+      .body { font: 600 18px 'Segoe UI', Arial, sans-serif; fill: #E2E8F0; }
+      .muted { font: 500 16px 'Segoe UI', Arial, sans-serif; fill: #9CAFC7; }
+      .card-title { font: 800 20px 'Segoe UI', Arial, sans-serif; fill: #F8FAFC; }
+      .chip { font: 800 13px 'Segoe UI', Arial, sans-serif; letter-spacing: 1px; fill: #F8FAFC; }
+      .num { font: 900 32px 'Segoe UI', Arial, sans-serif; fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="760" fill="#020617"/>
+  <rect width="1280" height="760" fill="url(#fog1)"/>
+  <rect width="1280" height="760" fill="url(#fog2)"/>
+  <g filter="url(#soft)" opacity="0.72">
+    <circle cx="230" cy="612" r="180" fill="#0EA5E9" fill-opacity="0.23"/>
+    <circle cx="1040" cy="145" r="210" fill="#A855F7" fill-opacity="0.16"/>
+    <circle cx="940" cy="635" r="170" fill="#F43F5E" fill-opacity="0.13"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="42" y="34" width="1196" height="692" rx="30" fill="#06101F" fill-opacity="0.46" stroke="url(#line)" stroke-opacity="0.56"/>
+    <rect x="43" y="35" width="1194" height="146" rx="29" fill="url(#shine)" opacity="0.66"/>
+    <rect x="42" y="34" width="1196" height="692" rx="30" fill="url(#scan)" opacity="0.68" filter="url(#frost)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="74" y="70" width="310" height="620" rx="28" fill="url(#glass)" stroke="url(#line)" stroke-opacity="0.72" filter="url(#frost)"/>
+    <rect x="86" y="82" width="286" height="132" rx="22" fill="url(#shine)" opacity="0.45"/>
+    <circle cx="229" cy="168" r="86" fill="#0B1220" fill-opacity="0.56" stroke="url(#line)" stroke-width="2.2"/>
+    <circle cx="229" cy="168" r="70" fill="#111827" fill-opacity="0.68"/>
+    <text x="229" y="150" text-anchor="middle" class="title" font-size="40">AB</text>
+    <text x="229" y="185" text-anchor="middle" class="subtitle">10</text>
+    <text x="108" y="292" class="title" font-size="34">AB10</text>
+    <text x="108" y="326" class="muted">ABHI2412-debug · he/him</text>
+    <text x="108" y="370" class="body">Full-stack &amp; mobile developer</text>
+    <text x="108" y="398" class="muted">Flutter · React · Node.js</text>
+    <text x="108" y="426" class="muted">Firebase · Real-time systems</text>
+    <line x1="108" y1="462" x2="350" y2="462" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="108" y="502" class="body">Nagpur, India</text>
+    <text x="108" y="534" class="muted">Portfolio: abhipandey.vercel.app</text>
+    <text x="108" y="562" class="muted">LinkedIn: abhi-pandey-5a0a182b8</text>
+    <text x="108" y="590" class="muted">Email: abhisunilpandey24</text>
+    <g transform="translate(108 626)">
+      <rect width="72" height="30" rx="15" fill="#38BDF8" fill-opacity="0.18" stroke="#67E8F9"/>
+      <text x="36" y="20" text-anchor="middle" class="chip">MOBILE</text>
+    </g>
+    <g transform="translate(190 626)">
+      <rect width="86" height="30" rx="15" fill="#A78BFA" fill-opacity="0.18" stroke="#C4B5FD"/>
+      <text x="43" y="20" text-anchor="middle" class="chip">BACKEND</text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="414" y="70" width="792" height="278" rx="26" fill="url(#glass)" stroke="url(#line)" stroke-opacity="0.7" filter="url(#frost)"/>
+    <rect x="428" y="84" width="764" height="86" rx="18" fill="url(#shine)" opacity="0.44"/>
+    <text x="452" y="112" class="mono">ABHI2412-debug / README.md</text>
+    <rect x="452" y="138" width="716" height="128" rx="20" fill="#000000" fill-opacity="0.18" stroke="#FFFFFF" stroke-opacity="0.22"/>
+    <text x="810" y="194" text-anchor="middle" class="title">Abhi Pandey</text>
+    <text x="810" y="230" text-anchor="middle" class="subtitle">Software Developer · Mobile Apps · Full-Stack Engineering</text>
+    <text x="810" y="258" text-anchor="middle" class="muted">Building useful systems with clean UI, real-time data, and reliable backend flows.</text>
+    <g transform="translate(510 294)">
+      <rect width="130" height="34" rx="6" fill="#EF476F"/>
+      <text x="65" y="23" text-anchor="middle" class="chip">PORTFOLIO</text>
+    </g>
+    <g transform="translate(654 294)">
+      <rect width="120" height="34" rx="6" fill="#647DEE"/>
+      <text x="60" y="23" text-anchor="middle" class="chip">LINKEDIN</text>
+    </g>
+    <g transform="translate(788 294)">
+      <rect width="110" height="34" rx="6" fill="#334155"/>
+      <text x="55" y="23" text-anchor="middle" class="chip">GITHUB</text>
+    </g>
+    <g transform="translate(912 294)">
+      <rect width="164" height="34" rx="6" fill="#10B981" fill-opacity="0.72"/>
+      <text x="82" y="23" text-anchor="middle" class="chip">REAL-TIME SYSTEMS</text>
+    </g>
+  </g>
+
+  <g transform="translate(414 382)">
+    <rect width="376" height="138" rx="18" fill="url(#glass)" stroke="url(#line)" stroke-opacity="0.6" filter="url(#frost)"/>
+    <rect x="10" y="10" width="356" height="38" rx="12" fill="url(#shine)" opacity="0.34"/>
+    <text x="24" y="39" class="card-title">ZenTrade</text>
+    <text x="24" y="70" class="muted">Real-time trading workflows,</text>
+    <text x="24" y="96" class="muted">candlestick charts, Redis, Docker.</text>
+    <circle cx="340" cy="36" r="7" fill="#F43F5E"/>
+  </g>
+  <g transform="translate(830 382)">
+    <rect width="376" height="138" rx="18" fill="url(#glass)" stroke="url(#line)" stroke-opacity="0.6" filter="url(#frost)"/>
+    <rect x="10" y="10" width="356" height="38" rx="12" fill="url(#shine)" opacity="0.34"/>
+    <text x="24" y="39" class="card-title">Location Meta Game</text>
+    <text x="24" y="70" class="muted">Flutter, Flame, Firebase, maps,</text>
+    <text x="24" y="96" class="muted">and location-aware mechanics.</text>
+    <circle cx="340" cy="36" r="7" fill="#38BDF8"/>
+  </g>
+  <g transform="translate(414 552)">
+    <rect width="376" height="138" rx="18" fill="url(#glass)" stroke="url(#line)" stroke-opacity="0.6" filter="url(#frost)"/>
+    <rect x="10" y="10" width="356" height="38" rx="12" fill="url(#shine)" opacity="0.34"/>
+    <text x="24" y="39" class="card-title">MERN Job Portal</text>
+    <text x="24" y="70" class="muted">Recruitment flows, REST APIs,</text>
+    <text x="24" y="96" class="muted">MongoDB, Express, React, Node.</text>
+    <circle cx="340" cy="36" r="7" fill="#22C55E"/>
+  </g>
+  <g transform="translate(830 552)">
+    <rect width="376" height="138" rx="18" fill="url(#glass)" stroke="url(#line)" stroke-opacity="0.6" filter="url(#frost)"/>
+    <rect x="10" y="10" width="356" height="38" rx="12" fill="url(#shine)" opacity="0.34"/>
+    <text x="24" y="39" class="card-title">FPS Bodycam Game</text>
+    <text x="24" y="70" class="muted">Unreal Engine 5 gameplay,</text>
+    <text x="24" y="96" class="muted">camera, movement, interactions.</text>
+    <circle cx="340" cy="36" r="7" fill="#A78BFA"/>
+  </g>
+
+  <g transform="translate(112 682)">
+    <text class="tiny">Igenie Labs · The Good Game Theory · Amdox Technology · Godeaon Studios · RBU 2023-2027</text>
+  </g>
+</svg>

@@ -3,6 +3,10 @@
   <img width="100%" src="./assets/readme/fro.gif" alt="Animated profile header" />
 </p>
 
+<p align="center">
+  <img width="100%" src="./assets/readme/glass-profile.svg" alt="Glassy developer profile dashboard for Abhi Pandey" />
+</p>
+
 <!-- Profile Badges -->
 <div align="center">
   <a href="https://github.com/ABHI2412-debug">
