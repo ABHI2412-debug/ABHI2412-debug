@@ -1,6 +1,6 @@
 <!-- Master Head -->
 <p align="center">
-  <img width="100%" src="./assets/readme/hero.gif" alt="Animated terminal-style header" />
+  <img width="100%" src="./assets/readme/fro.gif" alt="Animated profile header" />
 </p>
 
 <!-- Profile Badges -->
