@@ -134,7 +134,7 @@ Ramdeobaba University (RBU) · 2023-2027
 ---
 
 <p align="center">
-  <video src="./assets/readme/bye.mp4" width="100%" autoplay loop muted playsinline></video>
+  <img src="./assets/readme/bye.gif" alt="Animated goodbye footer" width="100%" />
 </p>
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%" height="1" alt="" />
