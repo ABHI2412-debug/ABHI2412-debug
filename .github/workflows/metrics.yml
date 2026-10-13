@@ -18,14 +18,10 @@ jobs:
     steps:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
-
         with:
+          filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: ABHI2412-debug
-                    # PageSpeed Insights
-          plugin_pagespeed: yes
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://abhipandey.vercel.app/
 
           # Dashboard appearance
           template: classic
@@ -38,7 +34,7 @@ jobs:
           base_indepth: yes
 
           # Dashboard section order
-          config_order: base.header, isocalendar, habits, languages, topics
+          config_order: base.header, isocalendar, habits, languages, topics, pagespeed
 
           # Contribution calendar
           plugin_isocalendar: yes
@@ -63,3 +59,9 @@ jobs:
           plugin_topics: yes
           plugin_topics_mode: icons
           plugin_topics_limit: 0
+
+          # PageSpeed Insights
+          plugin_pagespeed: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+          plugin_pagespeed_url: https://abhipandey.vercel.app/
+          plugin_pagespeed_detailed: yes
