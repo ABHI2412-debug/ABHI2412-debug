@@ -143,3 +143,4 @@ Ramdeobaba University (RBU) · 2023-2027
   Built with the animated profile style you liked, customized for <strong>Abhi Pandey</strong>.
 </p>
 <!-- profile-verified -->
+<!-- pair-verified -->
