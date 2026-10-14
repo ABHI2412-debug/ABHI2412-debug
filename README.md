@@ -6,7 +6,7 @@
 <!-- Profile Badges -->
 <div align="center">
   <a href="https://github.com/ABHI2412-debug">
-    <img src="https://komarev.com/ghpvc/?username=ABHI2412-debug&label=PROFILE%20VIEWS&color=5e81ac&style=for-the-badge" alt="Profile views" />
+    <img src="https://hits.sh/github.com/ABHI2412-debug.svg?style=for-the-badge&label=Profile%20Views&color=5e81ac" alt="Profile views" />
   </a>
   <a href="https://github.com/ABHI2412-debug?tab=followers">
     <img src="https://img.shields.io/github/followers/ABHI2412-debug?style=for-the-badge&label=Followers&color=5e81ac&logo=github" alt="GitHub followers" />
