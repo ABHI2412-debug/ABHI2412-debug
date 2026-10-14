@@ -3,15 +3,10 @@
   <img width="100%" src="./assets/readme/fro.gif" alt="Animated profile header" />
 </p>
 
-<!-- Ambient Glowing Purple Frame -->
-<p align="center">
-  <img width="100%" src="./assets/readme/purple-glow-frame.svg" alt="Ambient Purple Glow" />
-</p>
-
 <!-- Profile Badges -->
 <div align="center">
   <a href="https://github.com/ABHI2412-debug">
-    <img src="https://komarev.com/ghpvc/?username=ABHI2412-debug&label=Profile%20views&color=5e81ac&style=for-the-badge&logo=github&logoColor=white" alt="Profile views" />
+    <img src="https://komarev.com/ghpvc/?username=ABHI2412-debug&label=PROFILE%20VIEWS&color=5e81ac&style=for-the-badge" alt="Profile views" />
   </a>
   <a href="https://github.com/ABHI2412-debug?tab=followers">
     <img src="https://img.shields.io/github/followers/ABHI2412-debug?style=for-the-badge&label=Followers&color=5e81ac&logo=github" alt="GitHub followers" />
@@ -137,10 +132,6 @@ I am **Abhi Pandey**, a software developer focused on mobile apps, full-stack en
 Ramdeobaba University (RBU) · 2023-2027
 
 ---
-
-<p align="center">
-  <img width="100%" src="./assets/readme/purple-glow-frame.svg" alt="Ambient Purple Glow" />
-</p>
 
 <p align="center">
   <img src="./assets/readme/bye.gif" alt="Animated goodbye footer" width="100%" />
