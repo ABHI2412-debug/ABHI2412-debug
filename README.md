@@ -3,6 +3,11 @@
   <img width="100%" src="./assets/readme/fro.gif" alt="Animated profile header" />
 </p>
 
+<!-- Ambient Glowing Purple Frame -->
+<p align="center">
+  <img width="100%" src="./assets/readme/purple-glow-frame.svg" alt="Ambient Purple Glow" />
+</p>
+
 <!-- Profile Badges -->
 <div align="center">
   <a href="https://github.com/ABHI2412-debug">
@@ -134,6 +139,10 @@ Ramdeobaba University (RBU) · 2023-2027
 ---
 
 <p align="center">
+  <img width="100%" src="./assets/readme/purple-glow-frame.svg" alt="Ambient Purple Glow" />
+</p>
+
+<p align="center">
   <img src="./assets/readme/bye.gif" alt="Animated goodbye footer" width="100%" />
 </p>
 
@@ -142,5 +151,3 @@ Ramdeobaba University (RBU) · 2023-2027
 <p align="center">
   Built with the animated profile style you liked, customized for <strong>Abhi Pandey</strong>.
 </p>
-<!-- profile-verified -->
-<!-- pair-verified -->

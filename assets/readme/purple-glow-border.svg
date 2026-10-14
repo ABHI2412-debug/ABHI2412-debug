@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="100%" height="40" fill="none">
+  <defs>
+    <!-- Multi-stage Gaussian Blur for high-end bloom -->
+    <filter id="deepPurpleBloom" x="-20%" y="-150%" width="140%" height="400%">
+      <feGaussianBlur stdDeviation="3" result="sharpGlow" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="mediumGlow" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="22" result="ambientGlow" />
+      <feMerge>
+        <feMergeNode in="ambientGlow" />
+        <feMergeNode in="mediumGlow" />
+        <feMergeNode in="sharpGlow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Linear Gradient for horizontal neon sweep -->
+    <linearGradient id="neonPurpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0" />
+      <stop offset="15%" stop-color="#9333ea" stop-opacity="0.3" />
+      <stop offset="35%" stop-color="#a855f7" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#f3e8ff" stop-opacity="1" />
+      <stop offset="65%" stop-color="#a855f7" stop-opacity="0.85" />
+      <stop offset="85%" stop-color="#9333ea" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Radial aura for center glow orb -->
+    <radialGradient id="centerAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.9" />
+      <stop offset="35%" stop-color="#9333ea" stop-opacity="0.5" />
+      <stop offset="70%" stop-color="#581c87" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#3b0764" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <style>
+    @keyframes breathingGlow {
+      0%, 100% {
+        opacity: 0.12;
+        transform: scale(0.94);
+      }
+      50% {
+        opacity: 0.95;
+        transform: scale(1.02);
+      }
+    }
+
+    @keyframes particleTwinkle {
+      0%, 100% { opacity: 0.05; transform: scale(0.6); }
+      50% { opacity: 0.9; transform: scale(1.2); }
+    }
+
+    .glow-system {
+      transform-origin: center;
+      animation: breathingGlow 3.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .star-a {
+      transform-origin: 380px 20px;
+      animation: particleTwinkle 2.8s ease-in-out infinite;
+    }
+    .star-b {
+      transform-origin: 820px 20px;
+      animation: particleTwinkle 3.2s ease-in-out infinite 0.9s;
+    }
+  </style>
+
+  <!-- Ambient Pulsing Glow System -->
+  <g class="glow-system">
+    <!-- Wide diffused atmospheric cloud -->
+    <ellipse cx="600" cy="20" rx="360" ry="12" fill="url(#centerAura)" filter="url(#deepPurpleBloom)" />
+    
+    <!-- Secondary soft ambient bloom -->
+    <ellipse cx="600" cy="20" rx="460" ry="6" fill="#a855f7" opacity="0.45" filter="url(#deepPurpleBloom)" />
+
+    <!-- Sharp neon core stroke -->
+    <line x1="80" y1="20" x2="1120" y2="20" stroke="url(#neonPurpleGrad)" stroke-width="2" stroke-linecap="round" filter="url(#deepPurpleBloom)" />
+
+    <!-- Central gemstone spark -->
+    <rect x="596" y="16" width="8" height="8" rx="2" fill="#ffffff" transform="rotate(45 600 20)" />
+  </g>
+
+  <!-- Floating accent sparkles -->
+  <circle class="star-a" cx="380" cy="20" r="2" fill="#e9d5ff" />
+  <circle class="star-b" cx="820" cy="20" r="2" fill="#e9d5ff" />
+</svg>
