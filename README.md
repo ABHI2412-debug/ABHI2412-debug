@@ -58,17 +58,20 @@ I am **Abhi Pandey**, a software developer focused on mobile apps, full-stack en
 
 ---
 
-### Featured Projects
+### 🚀 Featured Projects
 
 <div align="center">
 
-| Project | What It Does | Stack |
-| --- | --- | --- |
-| **ZenTrade** | Binance-inspired trading platform with real-time market data, candlestick charts, order workflows, and service-oriented backend design. | `React` `Node.js` `PostgreSQL` `Redis` `WebSockets` `Docker` |
-| **Location-Based Meta Game** | Mobile game experience built around real-time maps, location-aware mechanics, authentication, and live data updates. | `Flutter` `Dart` `Flame` `Firebase` |
-| **MERN Job Portal** | Recruitment platform for job discovery, hiring workflows, REST APIs, and database-backed application features. | `MongoDB` `Express.js` `React` `Node.js` |
-| **Certificate Verification System** | Web app for certificate creation, management, and verification with structured backend workflows. | `MongoDB` `Express.js` `React` `Node.js` |
-| **FPS Bodycam Game** | First-person bodycam-style game with movement, camera behavior, interaction systems, and team-led implementation. | `Unreal Engine 5` `Blueprints` |
+| Project | What It Does | Tech Stack | Links |
+| :--- | :--- | :--- | :---: |
+| **ZenTrade** | Real-time digital trading dashboard with live market data feeds and interactive candlestick charts. | `TypeScript` `Next.js` `WebSockets` | [Demo](https://zentrade.vercel.app) · [Code](https://github.com/ABHI2412-debug/ZenTrade) |
+| **YATRABUS** | Full-scale online bus reservation platform with interactive seat selection, schedules, and booking. | `JavaScript` `React` `Node.js` | [Demo](https://yatrabus.vercel.app) · [Code](https://github.com/ABHI2412-debug/YATRABUS) |
+| **I-NDER** | Intelligent daily planner and task organizer for streamlining daily focus, priorities, and routines. | `TypeScript` `React` `Tailwind` | [Demo](https://i-nder.vercel.app) · [Code](https://github.com/ABHI2412-debug/I-NDER) |
+| **hms_eureka** | Enterprise-grade hospital management backend built with Spring Cloud Eureka microservices. | `Java` `Spring Boot` `Eureka` | [Demo](https://hms-eureka.vercel.app) · [Code](https://github.com/ABHI2412-debug/hms_eureka) |
+| **Rate-it** | Multi-criteria customer feedback, store rating, and satisfaction analytics platform. | `TypeScript` `Web` `Tailwind` | [Demo](https://rate-it-flame.vercel.app) · [Code](https://github.com/ABHI2412-debug/Rate-it) |
+| **Certificate System** | Automated credential generation and dynamic certificate verification engine. | `JavaScript` `Express.js` `Node.js` | [Demo](https://certificate-creation.vercel.app) · [Code](https://github.com/ABHI2412-debug/Certificate-Creation) |
+| **Location Meta-Game** | Mobile game experience built around real-time maps, location-aware mechanics, and live data. | `Flutter` `Dart` `Flame` `Firebase` | *Internship Project* |
+| **FPS Bodycam Game** | Tactical first-person bodycam gameplay with movement, camera behavior, and interaction systems. | `Unreal Engine 5` `Blueprints` | *Lead Dev Project* |
 
 </div>
 
